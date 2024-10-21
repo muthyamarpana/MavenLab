@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-20T05:30:39 IST" name="Suite" finished-at="2024-10-20T05:32:00 IST" duration-ms="80429">
+    <groups>
+    </groups>
+    <test started-at="2024-10-20T05:30:39 IST" name="Test" finished-at="2024-10-20T05:32:00 IST" duration-ms="80429">
+      <class name="testScenarios.Rediff">
+        <test-method signature="openRediff()[pri:1, instance:testScenarios.Rediff@1cbbffcd]" started-at="2024-10-20T05:30:39 IST" name="openRediff" description="Launch app" finished-at="2024-10-20T05:30:48 IST" duration-ms="9082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediff -->
+        <test-method signature="login()[pri:2, instance:testScenarios.Rediff@1cbbffcd]" started-at="2024-10-20T05:30:48 IST" name="login" description="login-Soft" finished-at="2024-10-20T05:30:49 IST" duration-ms="950" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Rediffmail12] but found [Rediffmail]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Rediffmail12] but found [Rediffmail]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testScenarios.Rediff.login(Rediff.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="closeRediff()[pri:3, instance:testScenarios.Rediff@1cbbffcd]" started-at="2024-10-20T05:30:49 IST" name="closeRediff" description="Close app" finished-at="2024-10-20T05:30:51 IST" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeRediff -->
+      </class> <!-- testScenarios.Rediff -->
+      <class name="testScenarios.SwitchingWind">
+        <test-method signature="winswitch()[pri:0, instance:testScenarios.SwitchingWind@20deea7f]" started-at="2024-10-20T05:31:26 IST" name="winswitch" finished-at="2024-10-20T05:31:35 IST" duration-ms="9812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winswitch -->
+      </class> <!-- testScenarios.SwitchingWind -->
+      <class name="testScenarios.DynDataHandling">
+        <test-method signature="dynData()[pri:0, instance:testScenarios.DynDataHandling@6a192cfe]" started-at="2024-10-20T05:30:51 IST" name="dynData" finished-at="2024-10-20T05:30:58 IST" duration-ms="7259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynData -->
+      </class> <!-- testScenarios.DynDataHandling -->
+      <class name="testScenarios.Vindeep">
+        <test-method signature="vindeep()[pri:0, instance:testScenarios.Vindeep@7193666c]" started-at="2024-10-20T05:31:06 IST" name="vindeep" finished-at="2024-10-20T05:31:26 IST" duration-ms="19211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vindeep -->
+      </class> <!-- testScenarios.Vindeep -->
+      <class name="testScenarios.MouseActions">
+        <test-method signature="dragAndDrop()[pri:0, instance:testScenarios.MouseActions@3835c46]" started-at="2024-10-20T05:31:35 IST" name="dragAndDrop" finished-at="2024-10-20T05:31:47 IST" duration-ms="11640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- testScenarios.MouseActions -->
+      <class name="testScenarios.HandlingAlerts">
+        <test-method signature="alerts()[pri:0, instance:testScenarios.HandlingAlerts@5119fb47]" started-at="2024-10-20T05:30:58 IST" name="alerts" finished-at="2024-10-20T05:31:06 IST" duration-ms="8449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+      </class> <!-- testScenarios.HandlingAlerts -->
+      <class name="testScenarios.MultipleListBox">
+        <test-method signature="myltiList()[pri:0, instance:testScenarios.MultipleListBox@1dde4cb2]" started-at="2024-10-20T05:31:47 IST" name="myltiList" finished-at="2024-10-20T05:32:00 IST" duration-ms="12562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myltiList -->
+      </class> <!-- testScenarios.MultipleListBox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
