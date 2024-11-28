@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-28T20:18:21 IST" name="Suite" finished-at="2024-11-28T20:19:18 IST" duration-ms="57367">
+    <groups>
+    </groups>
+    <test started-at="2024-11-28T20:18:21 IST" name="Test" finished-at="2024-11-28T20:19:18 IST" duration-ms="57367">
+      <class name="testScenarios.Rediff">
+        <test-method signature="openRediff()[pri:1, instance:testScenarios.Rediff@663411de]" started-at="2024-11-28T20:18:21 IST" name="openRediff" description="Launch" finished-at="2024-11-28T20:18:25 IST" duration-ms="4076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediff -->
+        <test-method signature="loginRediff()[pri:2, instance:testScenarios.Rediff@663411de]" started-at="2024-11-28T20:18:25 IST" name="loginRediff" description="Login" finished-at="2024-11-28T20:18:25 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+        <test-method signature="closeRediff()[pri:3, instance:testScenarios.Rediff@663411de]" started-at="2024-11-28T20:18:25 IST" name="closeRediff" description="Close" finished-at="2024-11-28T20:18:26 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeRediff -->
+      </class> <!-- testScenarios.Rediff -->
+      <class name="testScenarios.SwitchingWind">
+        <test-method signature="switchWin()[pri:0, instance:testScenarios.SwitchingWind@5b619d14]" started-at="2024-11-28T20:18:43 IST" name="switchWin" finished-at="2024-11-28T20:18:53 IST" duration-ms="10889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWin -->
+      </class> <!-- testScenarios.SwitchingWind -->
+      <class name="testScenarios.MouseHover">
+        <test-method signature="dragAndDrop()[pri:0, instance:testScenarios.MouseHover@74960bfa]" started-at="2024-11-28T20:18:26 IST" name="dragAndDrop" finished-at="2024-11-28T20:18:32 IST" duration-ms="5818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- testScenarios.MouseHover -->
+      <class name="testScenarios.DP_Exp">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP_Exp@1f6c9cd8]" started-at="2024-11-28T20:18:43 IST" name="login" data-provider="data" finished-at="2024-11-28T20:18:43 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP_Exp@1f6c9cd8]" started-at="2024-11-28T20:18:43 IST" name="login" data-provider="data" finished-at="2024-11-28T20:18:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[check1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP_Exp@1f6c9cd8]" started-at="2024-11-28T20:18:43 IST" name="login" data-provider="data" finished-at="2024-11-28T20:18:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[temp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[temp1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testScenarios.DP_Exp -->
+      <class name="testScenarios.CheckAndRadBtns">
+        <test-method signature="verifyChkAndRadBtns()[pri:0, instance:testScenarios.CheckAndRadBtns@447a020]" started-at="2024-11-28T20:19:04 IST" name="verifyChkAndRadBtns" finished-at="2024-11-28T20:19:18 IST" duration-ms="14219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChkAndRadBtns -->
+      </class> <!-- testScenarios.CheckAndRadBtns -->
+      <class name="testScenarios.ReadFrmWebTable">
+        <test-method signature="readFrmTable()[pri:0, instance:testScenarios.ReadFrmWebTable@42721fe]" started-at="2024-11-28T20:18:32 IST" name="readFrmTable" finished-at="2024-11-28T20:18:43 IST" duration-ms="10660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFrmTable -->
+      </class> <!-- testScenarios.ReadFrmWebTable -->
+      <class name="testScenarios.ThruTextFile">
+        <test-method signature="writeAndReadFrmTextFile()[pri:0, instance:testScenarios.ThruTextFile@40844aab]" started-at="2024-11-28T20:18:43 IST" name="writeAndReadFrmTextFile" finished-at="2024-11-28T20:18:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeAndReadFrmTextFile -->
+      </class> <!-- testScenarios.ThruTextFile -->
+      <class name="testScenarios.CompareWebTableData">
+        <test-method signature="readFrmTextFile()[pri:1, instance:testScenarios.CompareWebTableData@66746f57]" started-at="2024-11-28T20:18:53 IST" name="readFrmTextFile" finished-at="2024-11-28T20:18:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFrmTextFile -->
+        <test-method signature="readFrmWebTable()[pri:2, instance:testScenarios.CompareWebTableData@66746f57]" started-at="2024-11-28T20:18:53 IST" name="readFrmWebTable" finished-at="2024-11-28T20:19:04 IST" duration-ms="10278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFrmWebTable -->
+        <test-method signature="compareWebTable()[pri:3, instance:testScenarios.CompareWebTableData@66746f57]" started-at="2024-11-28T20:19:04 IST" name="compareWebTable" finished-at="2024-11-28T20:19:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareWebTable -->
+      </class> <!-- testScenarios.CompareWebTableData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
