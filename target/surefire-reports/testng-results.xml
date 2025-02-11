@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T20:28:28 IST" name="Suite" finished-at="2025-02-11T20:29:07 IST" duration-ms="38929">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T20:28:28 IST" name="Test" finished-at="2025-02-11T20:29:07 IST" duration-ms="38929">
+      <class name="scenarios.SwitchingWin">
+        <test-method signature="switchWindows()[pri:0, instance:scenarios.SwitchingWin@27ce24aa]" started-at="2025-02-11T20:28:52 IST" name="switchWindows" finished-at="2025-02-11T20:28:59 IST" duration-ms="7343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindows -->
+      </class> <!-- scenarios.SwitchingWin -->
+      <class name="scenarios.MouseHover">
+        <test-method signature="dragAndDrop()[pri:0, instance:scenarios.MouseHover@3d74bf60]" started-at="2025-02-11T20:28:28 IST" name="dragAndDrop" finished-at="2025-02-11T20:28:35 IST" duration-ms="6019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- scenarios.MouseHover -->
+      <class name="scenarios.HandlingAlerts">
+        <test-method signature="alerts_demo()[pri:0, instance:scenarios.HandlingAlerts@1cbbffcd]" started-at="2025-02-11T20:28:35 IST" name="alerts_demo" finished-at="2025-02-11T20:28:52 IST" duration-ms="17595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts_demo -->
+      </class> <!-- scenarios.HandlingAlerts -->
+      <class name="scenarios.DynDataHandling">
+        <test-method signature="DynDataExp()[pri:0, instance:scenarios.DynDataHandling@481a996b]" started-at="2025-02-11T20:28:59 IST" name="DynDataExp" finished-at="2025-02-11T20:29:07 IST" duration-ms="7912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynDataExp -->
+      </class> <!-- scenarios.DynDataHandling -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

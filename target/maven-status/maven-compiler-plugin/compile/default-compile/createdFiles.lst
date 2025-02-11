@@ -1,0 +1,4 @@
+scenarios\MouseHover.class
+scenarios\HandlingAlerts.class
+scenarios\DynDataHandling.class
+scenarios\SwitchingWin.class
